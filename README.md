@@ -3,7 +3,8 @@ Proyecto Final (Laberinto y Grafos) Introducción a las Ciencias de la Computaci
 
 ## Marco teórico
 
-### Links de referencia 
+### Links de referencia
+https://github.com/ferenc-nemeth/maze-generation-algorithms
 
 #### Links algorimos de creación de labertinots 
 
