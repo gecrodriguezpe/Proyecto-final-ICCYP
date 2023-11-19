@@ -8,6 +8,8 @@ https://github.com/ferenc-nemeth/maze-generation-algorithms
 
 https://vishald.com/blog/kruskals-maze-generation/
 
+Info e animación bonita https://lvngd.com/blog/kruskals-algorithm-animation-maze-generation/
+
 #### Links algorimos de creación de labertinots 
 
 ## Algortimos de creación de labertintos 
