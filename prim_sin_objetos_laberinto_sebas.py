@@ -6,7 +6,7 @@ import random
 width = int(input("Enter the width of the maze: ") or 10)
 height = int(input("Enter the height of the maze: ") or width)
 seed = int(input("Enter the seed for randomness (or press Enter for a random seed): ") or random.randint(0, 0xFFFFFFF))
-delay = float(input("Enter the delay between steps in seconds (or press Enter for 0.01): ") or 0.01)
+#delay = float(input("Enter the delay between steps in seconds (or press Enter for 0.01): ") or 0.01)
 
 random.seed(seed)
 
