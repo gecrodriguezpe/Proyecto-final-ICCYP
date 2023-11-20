@@ -1,6 +1,6 @@
 import tkinter as tk
 import random
-import time
+#import time
 
 # Allow the maze to be customized via command-line parameters
 width = int(input("Enter the width of the maze: ") or 10)
@@ -35,6 +35,7 @@ def add_neighbors(x, y):
 
 # Tkinter visualization
 root = tk.Tk()
+root.title("PRIM")
 canvas = tk.Canvas(root, width=20 * width, height=20 * height)
 canvas.pack()
 
@@ -76,7 +77,7 @@ def prim():
             grid[ny][nx] |= OPPOSITE[direction]
             add_neighbors(nx, ny)
             draw_maze()
-            time.sleep(delay)
+            #time.sleep(delay)
 
 prim()
 draw_maze()
