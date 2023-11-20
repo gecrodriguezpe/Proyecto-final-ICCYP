@@ -2,7 +2,7 @@
 
 import tkinter as tk
 import random
-import time
+#import time
 
 # Allow the maze to be customized via command-line parameters
 width = int(input("Enter the width of the maze: ") or 10)
@@ -45,6 +45,7 @@ random.shuffle(edges)
 
 # Tkinter visualization
 root = tk.Tk()
+root.title("KRUSKAL")
 canvas = tk.Canvas(root, width=20 * width, height=20 * height)
 canvas.pack()
 
