@@ -10,6 +10,7 @@ https://vishald.com/blog/kruskals-maze-generation/
 
 Info e animación bonita https://lvngd.com/blog/kruskals-algorithm-animation-maze-generation/
 
+Vídeo que subió Andrés https://www.youtube.com/watch?v=bQjfmB3lRoA&t=1095s&ab_channel=FredyGeek
 #### Links algorimos de creación de labertinots 
 
 ## Algortimos de creación de labertintos 
