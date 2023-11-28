@@ -59,7 +59,7 @@ public class juego extends JPanel{
     public static void main(String[] args){
 
         // Creamos la ventana del juego
-        JFrame miventana = new JFrame("Mi primer laberinto");
+        JFrame miventana = new JFrame("Laberinto ICCP");
         juego game = new juego();
         miventana.add(game);
 
