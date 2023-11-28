@@ -65,12 +65,17 @@ public class laberinto {
                 // Si la celda es un pasillo, dibuja la imagen del pasillo
                 else{
                     grafico.drawImage(pasillo, columna * escala, fila * escala, null);
-                }
             }
         }
-
+    }    
         // Dibuja la imagen del dragón en la posición especificada
         grafico.drawImage(dragon, (numeroColumnas - 2) * escala, (numeroFilas - 2) * escala, null);
+        grafico.drawImage(dragon, (numeroColumnas - numeroColumnas + 2) * escala, (numeroFilas - 2) * escala, null);
+        grafico.drawImage(dragon, (numeroColumnas - 2) * escala, (numeroFilas - numeroFilas + 1) * escala, null);
+        grafico.drawImage(dragon, (numeroColumnas / 2) * escala, (numeroFilas / 2) * escala, null);
+        grafico.drawImage(dragon, (numeroColumnas / 2) * escala, (numeroFilas - 2) * escala, null);
+        grafico.drawImage(dragon, (numeroColumnas - 2) * escala, (numeroFilas / 2) * escala, null);
+
     }
 
     // Método para obtener la matriz del laberinto desde un archivo de texto
